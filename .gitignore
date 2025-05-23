@@ -1,0 +1,19 @@
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter/Spyder artifacts
+.ipynb_checkpoints
+.spyderproject
+.spyproject
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
