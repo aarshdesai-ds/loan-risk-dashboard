@@ -54,14 +54,13 @@ The dashboard enables users to explore how demographic and loan-related factors 
 
 
 1. Clone the repository
-git clone https://github.com/aarshdesai-ds/loan-risk-dashboard.git
-cd loan-risk-dashboard
+`git clone https://github.com/aarshdesai-ds/loan-risk-dashboard.git`
 
 2. Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 3. Run the Streamlit app
-streamlit run app/streamlit_app.py
+`streamlit run app/streamlit_app.py`
 
 
 # ✅ Key Takeaways
