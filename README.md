@@ -52,13 +52,63 @@ The dashboard enables users to explore how demographic and loan-related factors 
 
 ## 🚀 How to Run Locally
 
-```bash
-# Clone the repository
+
+1. Clone the repository
 git clone https://github.com/aarshdesai-ds/loan-risk-dashboard.git
 cd loan-risk-dashboard
 
-# Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-# Run the Streamlit app
+3. Run the Streamlit app
 streamlit run app/streamlit_app.py
+
+
+# ✅ Key Takeaways
+
+This project combines exploratory data analysis with an interactive Streamlit dashboard to help users investigate the risk factors behind loan default behavior. Below are the major insights and outcomes:
+
+---
+
+## 🔍 Demographic and Financial Insights
+
+- Default rates vary significantly across **age groups**, **regions**, and **loan purposes**.
+- Younger applicants (<25) and certain regions show **higher default tendencies**, indicating potential demographic risk factors.
+- **Credit worthiness** and **loan purpose** are key determinants of repayment behavior.
+
+---
+
+## 📊 Rich, Visual-First Exploration
+
+- The dashboard includes **25+ visualizations** to help users spot trends and anomalies at a glance.
+- Plots such as boxplots, countplots, and histograms provide a **multi-dimensional view** of loan risk.
+- A **correlation heatmap** reveals relationships between numeric and encoded categorical features.
+
+---
+
+## 🧹 Clean, Structured Data Pipeline
+
+- Age transformed into **ordered categorical bins** enables better cohort analysis.
+- Numeric fields (e.g., Loan Amount, Interest Rate) cleaned and standardized for visualization and filtering.
+- Missing values handled robustly to maintain data quality throughout the dashboard.
+
+---
+
+## 🖥️ Streamlit Dashboard for Stakeholders
+
+- Users can interactively filter data by **gender**, **region**, **loan type**, and more.
+- Visual panels are tailored to business questions, including:
+  - 📈 Default by Age Group  
+  - 🏘️ Region vs Default Rate  
+  - 💼 Credit Worthiness Impact  
+  - 🧾 Loan Purpose vs Default  
+  - 💰 Loan Amount Distribution  
+- Helps **non-technical stakeholders** derive insights quickly and clearly.
+
+---
+
+## 📈 Conclusion
+
+The Loan Default Risk Dashboard offers a **powerful, visual way** to analyze default trends across multiple factors.  
+With a clean EDA pipeline and intuitive Streamlit interface, it enables organizations to **identify risk patterns**, **optimize lending criteria**, and **communicate findings effectively**.
+
